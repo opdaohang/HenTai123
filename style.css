@@ -1,0 +1,35 @@
+body{
+	background-image: url(https://ws3.sinaimg.cn/large/006TQkcqgy1g1bsnzirsnj30yi0n0ax0.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.mdui-col {
+  margin-top: 12px;
+}
+
+.BodyMain{
+  width: 800px;
+  margin-top: 8%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 810px) {
+ .BodyMain{
+  width: 95%;
+ }
+}
+
+@media (max-width: 100px) {
+ .BodyMain{
+  width: 93%;
+ }
+}
+
+@media (max-width: 100px) {
+ .BodyMain{
+  width: 90%;
+ }
+}
